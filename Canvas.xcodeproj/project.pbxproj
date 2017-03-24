@@ -12,6 +12,7 @@
 		E1B105F71E8482A80074452A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B105F51E8482A80074452A /* Main.storyboard */; };
 		E1B105F91E8482A80074452A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B105F81E8482A80074452A /* Assets.xcassets */; };
 		E1B105FC1E8482A80074452A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B105FA1E8482A80074452A /* LaunchScreen.storyboard */; };
+		E1B106041E8482F40074452A /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B106031E8482F40074452A /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E1B105F81E8482A80074452A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1B105FB1E8482A80074452A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1B105FD1E8482A80074452A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B106031E8482F40074452A /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E1B105F11E8482A80074452A /* AppDelegate.swift */,
 				E1B105F31E8482A80074452A /* ViewController.swift */,
+				E1B106031E8482F40074452A /* CanvasViewController.swift */,
 				E1B105F51E8482A80074452A /* Main.storyboard */,
 				E1B105F81E8482A80074452A /* Assets.xcassets */,
 				E1B105FA1E8482A80074452A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1B105F41E8482A80074452A /* ViewController.swift in Sources */,
+				E1B106041E8482F40074452A /* CanvasViewController.swift in Sources */,
 				E1B105F21E8482A80074452A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
